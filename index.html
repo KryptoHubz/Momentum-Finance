@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Momentum Finance Knowledge Quiz</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>🧠 Momentum Finance Knowledge Quiz</h1>
+    <div id="quiz-container">
+        <div id="progress-bar"><div id="progress"></div></div>
+        <div id="question-container">
+            <p id="question">Question will appear here</p>
+        </div>
+        <div id="options-container"></div>
+        <button id="next-btn" class="hidden">Next</button>
+    </div>
+
+    <div id="result-container" class="hidden">
+        <h2>Your Score: <span id="score"></span></h2>
+        <button id="restart-btn">Restart Quiz</button>
+        <a id="share-btn" class="hidden" target="_blank">Share on X 🐦</a>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
